@@ -24,9 +24,6 @@ EditorBuildSettings:
     path: Assets/Course Library/Scenes/Level 3.unity
     guid: 473b71bcf5fc6f5438470e1b82fe7c1f
   - enabled: 1
-    path: Assets/Course Library/Scenes/NextLevelScreen.unity
-    guid: c7ff7d24aefd8ee4286e043054234064
-  - enabled: 1
     path: Assets/Course Library/Scenes/CongratsScreen.unity
     guid: fbcc00f86fbd72e468788b73eef3803d
   - enabled: 1
