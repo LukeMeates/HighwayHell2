@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-
-    private float speed = 20.0f;
+    private float speed = 25.0f;
     private float turnSpeed = 45.0f;
     private float horizontalInput;
     private float forwardInput;
@@ -19,6 +18,8 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+       
+        
         horizontalInput = Input.GetAxis("Horizontal");
         forwardInput = Input.GetAxis("Vertical");
         transform.Translate(Vector3.forward * Time.deltaTime * speed * forwardInput);
@@ -26,7 +27,7 @@ public class PlayerController : MonoBehaviour
 
         if(Input.GetKeyDown(KeyCode.Space))
         {
-            speed = 40.0f;
+            speed = 25.0f;
         } 
     }
 }

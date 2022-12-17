@@ -7,6 +7,7 @@ public class ChangeScene : MonoBehaviour
 {
     public int iLevelToLoad;
     public string sLevelToLoad;
+    public string URL = "https://github.com/LukeMeates/HighwayHell2";
 
     public bool useIntToLoadLevel = false;
 
@@ -30,6 +31,11 @@ public class ChangeScene : MonoBehaviour
         {
             LoadScene();
         }
+    }
+
+    public void loadURL()
+    {
+        Application.OpenURL(URL);
     }
 
     void LoadScene()
